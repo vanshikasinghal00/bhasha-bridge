@@ -50,7 +50,7 @@ const Register = () => {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                    placeholder="Ankit Thakur"
+                    placeholder="Enter your full name"
                   />
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Register = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                    placeholder="ankit@example.com"
+                    placeholder="Enter your email address"
                   />
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Register = () => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                    placeholder="••••••••"
+                    placeholder="Enter your password"
                   />
                 </div>
               </div>
